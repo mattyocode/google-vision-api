@@ -1,9 +1,10 @@
 from __future__ import print_function
 import os
+import json
 
 from google.cloud import vision
 
-image_uri = 'gs://cloud-samples-data/vision/using_curl/shanghai.jpeg'
+image_uri = 'https://drive.google.com/file/d/1B7WmDp4R96G_gQEYje32wAe3ZRcqHIK0/view?usp=sharing'
 
 path = os.path.abspath(os.environ["GOOGLE_APPLICATION_CREDENTIALS"])
 
